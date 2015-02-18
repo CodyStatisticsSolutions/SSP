@@ -1,0 +1,18 @@
+Package: StatSolutions
+Type: Package
+Title: Statistics Solutions Pro Functions
+Version: 1.51
+Date: 2014-2-17
+Author: Jeroen Ooms, Cody Likavec, and Kelvin Lam
+Maintainer: Cody Likavec <cody@statisticssolutions.com>
+License: none
+Description: Functions used for Statistics Solutions Pro software
+Hosted at https://github.com/CodyStatisticsSolutions/SSP.git;
+Imports:
+  car, foreign, Hmisc, stats, fmsb, psych, nlme, multcomp, 
+  mvtnorm, pgirmess, dplyr, psy, heplots, ordinal, reshape,
+  sem, MVN, stringr, semPlot, plyr, nnet, reshape2, ggplot2,
+  parallel, GPArotation, lattice, corrplot, polycor,
+  lattice, lsmeans, data.table, mice
+Depends:
+  semPlot, mvtnorm, mice

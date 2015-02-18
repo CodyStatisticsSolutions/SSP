@@ -1,0 +1,179 @@
+<html>
+	<head>
+		<base target="_blank" />
+		
+	</head>
+	
+	<body>
+	
+		<h1> Stat solutions technical test page </h1>
+		
+
+		
+		<h3> Upload SPSS dataset </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/read.spss.new/save" method="POST">
+				<input type="hidden" name="to.data.frame" value="TRUE"> <!-- must always be set to true -->
+				File to upload: <input name="!file:file" type="file" /><br /> <!-- param name has to be file -->
+				<input type="submit" value="Upload SPSS File" />
+			</form>		
+			
+			Try with e.g. <a href="/R/call/base/system.file/file?package='opencpu.tools'&...='files/1991GS.sav'">1991 General Survey SPSS Dataset</a> <br />
+		
+		<h3> Upload CSV dataset </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/read.csv.new/save" method="POST">
+				File to upload: <input name="!file:file" type="file" /><br /> <!-- param name has to be file -->
+				Header: <select name="header"><option value=TRUE> TRUE </option> <option value=FALSE> FALSE </option> </select> </br />
+				Sep: <select name="sep"><option value="','"> ',' (comma) </option> <option value="';'"> ';' (semicolon) </option> </select> </br /> 
+				Dec: <select name="dec"><option value="'.'"> '.' (dot) </option> <option value="','"> ',' (comma) </option> </select> </br /> 
+				<input type="submit" value="Upload CSV file" />
+			</form>		
+			
+			Try with e.g. <a href="/R/call/base/identity/csv?x=mtcars">mtcars.csv</a> <br />		
+		
+		<h3> Upload TXT dataset </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/utils/read.table/save" method="POST">
+				File to upload: <input name="!file:file" type="file" /><br /> <!-- param name has to be file -->
+				Header: <select name="header"><option value=TRUE> TRUE </option> <option value=FALSE> FALSE </option> </select> </br />
+				Sep: <input type="text" name="sep" size="25" value='""'> <br />
+				Dec: <input type="text" name="sep" size="25" value='"."'> <br />
+				<input type="submit" value="Upload TXT file" />
+			</form>				
+		
+		<h3> Get info about the dataset </h3>
+		
+			For example:
+			<ul>
+			<li><a href="/R/call/StatSolutions/dataset.info/json?data=/tmp/143a531b5dbee3510f4149e7536ca80f">GET	/R/call/StatSolutions/dataset.info/json?data=/tmp/143a531b5dbee3510f4149e7536ca80f </a> </li>		
+			<li><a href="/R/call/StatSolutions/dataset.info/json?data=/tmp/ebd6fe876ded0dafc82de088b30c3f70">GET	/R/call/StatSolutions/dataset.info/json?data=/tmp/e199ea0aed46940578d90bed03def47d </a> </li>	
+			</ul>
+
+		<h3> Download a dataset in CSV or TAB format </h3>
+		
+			For example:  
+			<ul>
+			<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/csv">GET /R/store/tmp/143a531b5dbee3510f4149e7536ca80f/csv </a>  </li>
+			<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/table">GET	/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/table </a> </li>
+			</ul>
+
+		<h2> Tests </h2>
+		
+		<h3> Correlation Test </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/correlation.test/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				x (numeric): <input type="text" name="x" size="50" value="'maeduc'">  </br />
+				y (numeric): <input type="text" name="y" size="50" value="'paeduc'">  </br />
+				conf.level (optional): <input type="text" name="conf.level" size="50" value="0.95">  </br />
+				alternative (optional): <select name="alternative">
+				  <option value='"two.sided"'>two.sided</option>
+				  <option value='"two.sided"'>less</option>
+				  <option value='"greater"'>greater</option>
+				</select><br />
+				
+				method (optional): <select name="method">
+				  <option value='"pearson"'>pearson</option>
+				  <option value='"kendall"'>kendall</option>
+				  <option value='"spearman"'>spearman</option>
+				</select><br />
+
+				
+				<input type="submit" value="Correlation Test" />
+			</form>			
+		
+		<h3> Multiple correlations </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/multi.cor/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				vars (numeric): <input type="text" name="vars" size="50" value='["educ", "maeduc", "paeduc"]'>  </br />
+				type (optional): <select name="type">
+				  <option value='"pearson"'>pearson</option>
+				  <option value='"spearman"'>spearman</option>
+				</select><br />				
+				<input type="submit" value="Multiple Correlations" />
+			</form>			
+		
+		<h3> One Way ANOVA </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/oneway.anova/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				x (factor): <input type="text" name="x" size="50" value="'race'">  </br />
+				y (numeric): <input type="text" name="y" size="50" value="'educ'">  </br />
+				<input type="submit" value="Do Anova" />
+			</form>	
+		
+		<h3> Linear Regression </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/linear.regression/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				formula: <input type="text" name="formula" size="50" value="educ ~ sex + race">  </br />
+				<input type="submit" value="Do Regression" />
+			</form>		
+		
+		<h3> Chi Square Test </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/chi.square/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				x (factor): <input type="text" name="x" size="50" value="'race'">  </br />
+				y (factor): <input type="text" name="y" size="50" value="'sex'">  </br />
+				correct (optional): <select name="correct">
+				  <option value="TRUE">TRUE</option>
+				  <option value="FALSE">FALSE</option>
+				</select><br />						
+				<input type="submit" value="Chi Square test" />
+			</form>			
+		
+		<h3> Independent samples T-test </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/student.test/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				x (2-level factor): <input type="text" name="x" size="50" value="'sex'">  </br />
+				y (numeric): <input type="text" name="y" size="50" value="'educ'">  </br />			
+			<!--	var.equal (optional): <select name="var.equal">
+				  <option value="TRUE">TRUE</option>
+				  <option value="FALSE">FALSE</option>
+				</select><br />-->	
+				conf.level (optional): <input type="text" name="conf.level" size="50" value="0.95">  </br />					
+				<input type="submit" value="Do T-test" />
+			</form>	
+		
+		<h3> Dependent samples T-test </h3>
+		
+			<form enctype="multipart/form-data" action="/R/call/StatSolutions/paired.t.test/save" method="POST">
+				Datafile: <input type="text" name="data" size="50" value="/tmp/143a531b5dbee3510f4149e7536ca80f"> <br />
+				y1 (numeric): <input type="text" name="y1" size="50" value="'paeduc'">  </br />
+				y2 (numeric): <input type="text" name="y2" size="50" value="'maeduc'">  </br />
+				var.equal (optional): <select name="var.equal">
+				  <option value="TRUE">TRUE</option>
+				  <option value="FALSE">FALSE</option>
+				</select><br />		
+				conf.level (optional): <input type="text" name="conf.level" size="50" value="0.95">  </br />				
+				<input type="submit" value="Do T-test" />
+			</form>	
+		
+		<h2> Retrieve output of the tests from the store </h2>
+		
+			<h3> Objects: </h3> 
+			
+			<ul>
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/json"> Export object form store as JSON. </a>  </li>
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/json?!digits=10"> Export object form store as JSON with extra decimals. </a>  </li>
+			</ul>
+		
+			<h3> Plots: </h3> 
+			
+			<ul>
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/png"> Export plot form store to PNG. </a>  </li>
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/png?!width=1000&!height=800"> Export plot form store to sized PNG. </a>  </li>	
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/pdf"> Get PDF. </a>  </li>
+				<li><a href="/R/store/tmp/143a531b5dbee3510f4149e7536ca80f/svg"> Get SVG. </a>  </li>		
+								
+			</ul>			
+		
+		
+	
+	</body>
+</html>
+

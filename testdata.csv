@@ -1,0 +1,151 @@
+"","ID","NormalDependent","NotNormalDependent","DifferentGroup2","NotDifferentGroup2","DifferentGroup3","NotDifferentGroup3","Paired1","Paired2Different","Paired2NotDifferent","Correlate","PositiveCorrelate","NegativeCorrelate","NoCorrelate","ChiGroup1","ChiGroup2Large","ChiGroup2Small","ChiSquareNotSig","IVModerate","Group3","Normal","Group2","BigGroup","Paired2","Paired3","Paired4","Paired5","Paired6","Outliers1","Outliers2","Outliers3","TypicalLikert1","TypicalLikert2","TypicalLikert3"
+"1",1,50,25,"Group A","Group A","Alpha","Beta",20,22,21,35,39,-39,48,"Group A","Alpha","Alpha","George",32,"Blue",57.84628279,"Blue",NA,22,20,24,35,41,50,-60,-200,1,2,2
+"2",2,53,25,"Group A","Group A","Alpha","Alpha",18,19,16,39,42,-44,43,"Group A","Alpha","Alpha","George",34,"Blue",58.47151715,"Blue","Another Group",19,18,28,41,44,53,-75,-200,4,3,2
+"3",3,93,38,"Group A","Group A","Alpha","Beta",14,NA,13,30,36,-29,47,"Group B","Alpha","Alpha","George",27,"Blue",60.52118713,"Blue","Group A",19,18,16,35,34,93,38,38,4,3,2
+"4",4,34,37,"Group A","Group B","Alpha","Alpha",16,NA,19,38,37,-43,65,"Group A","Alpha","Alpha","Bob",31,"Blue",59.07591357,"Blue","Group X",16,16,31,37,35,34,37,37,5,1,3
+"5",5,60,32,"Group A","Group B","Alpha","Beta",10,11,13,43,44,-47,69,"Group A","Alpha","Alpha","Tim",39,"Blue",55.47610261,"Blue","Group X",11,10,31,44,42,60,32,32,3,3,3
+"6",6,84,33,"Group A","Group B","Alpha","Theta",16,20,14,30,30,-31,67,"Group A","Alpha","Alpha","George",20,"Blue",56.67873364,"Blue","Group B",20,20,16,30,28,84,33,33,4,2,1
+"7",7,47,37,"Group A","Group A","Alpha","Theta",NA,20,NA,43,44,-46,41,"Group A","Alpha","Alpha","Tim",34,"Blue",56.82354782,"Blue",NA,20,17,29,44,45,47,37,37,4,1,1
+"8",8,42,52,"Group A","Group B","Alpha","Theta",NA,17,NA,30,36,-33,55,"Group A","Alpha","Alpha","Hank",26,"Blue",58.05162974,"Blue","Group X",17,17,24,34,39,42,52,52,5,2,1
+"9",9,74,47,"Group A","Group B","Alpha","Alpha",10,12,9,31,38,-33,70,"Group A","Alpha","Alpha","Tim",31,"Blue",57.69755481,"Blue",NA,12,11,21,37,39,74,47,47,3,2,3
+"10",10,33,55,"Group A","Group A","Alpha","Beta",14,17,15,40,41,-40,33,"Group A","Alpha","Alpha","Hank",33,"Green",58.86491136,"Green",NA,17,16,28,40,39,33,55,55,5,1,3
+"11",11,80,50,"Group A","Group B","Alpha","Alpha",10,12,7,43,45,-49,53,"Group A","Alpha","Alpha","George",36,"Green",55.25480102,"Green",NA,12,10,31,44,48,80,50,50,1,4,5
+"12",12,51,51,"Group A","Group B","Alpha","Beta",16,19,14,50,54,-52,44,"Group A","Alpha","Alpha","George",60,"Green",55.73941463,"Green",NA,19,16,22,52,52,51,51,51,4,5,5
+"13",13,96,48,"Group A","Group A","Alpha","Beta",19,21,19,33,36,-35,53,"Group B","Alpha","Alpha","Tim",29,"Blue",57.63352707,"Blue","Last Group",21,19,28,36,34,96,48,48,1,3,4
+"14",14,50,51,"Group A","Group A","Alpha","Theta",20,21,17,47,46,-48,58,"Group B","Alpha","Alpha","Bob",51,"Blue",57.2150348,"Blue","Group B",21,20,31,47,44,50,51,51,3,2,2
+"15",15,81,47,"Group A","Group B","Alpha","Alpha",14,19,13,35,35,-35,70,"Group B","Alpha","Alpha","Tim",27,"Blue",58.86481677,"Blue",NA,19,15,16,35,37,81,47,47,2,3,5
+"16",16,33,53,"Group A","Group A","Alpha","Beta",17,NA,16,50,50,-56,53,"Group B","Alpha","Alpha","Hank",59,"Blue",55.69350369,"Blue","Last Group",22,17,27,50,51,33,53,53,1,5,2
+"17",17,37,57,"Group A","Group B","Alpha","Theta",19,NA,20,36,43,-36,44,"Group A","Alpha","Alpha","Hank",33,"Red",61.42909101,"Green","Last Group",19,19,30,40,43,37,57,57,1,5,1
+"18",18,55,54,"Group A","Group A","Alpha","Alpha",12,12,14,46,51,-53,66,"Group A","Alpha","Alpha","George",56,"Green",61.27018029,"Green","Another Group",12,12,38,49,51,55,54,54,2,5,2
+"19",19,91,58,"Group A","Group B","Alpha","Alpha",16,19,14,33,32,-32,57,"Group A","Alpha","Alpha","Bob",25,"Green",64.57504857,"Green","Even more groups",19,19,20,33,32,91,58,58,4,4,4
+"20",20,66,52,"Group A","Group B","Alpha","Alpha",20,21,18,32,39,-34,52,"Group A","Alpha","Alpha","Tim",34,"Green",62.18026499,"Green","Last Group",21,21,20,35,39,66,52,52,1,1,1
+"21",21,28,60,"Group A","Group B","Alpha","Alpha",18,20,21,32,36,-35,57,"Group A","Alpha","Alpha","Tim",28,"Red",64.5467051,"Green",NA,20,19,27,33,36,28,60,60,1,4,4
+"22",22,80,55,"Group A","Group B","Beta","Alpha",12,17,12,38,45,-40,68,"Group A","Beta","Alpha","Tim",37,"Red",64.97532714,"Green","Group X",17,17,15,42,45,80,55,55,1,5,5
+"23",23,29,52,"Group A","Group A","Beta","Alpha",14,14,NA,48,48,-48,35,"Group A","Beta","Alpha","Hank",53,"Red",64.68940386,"Green","Last Group",14,14,38,48,46,29,52,52,3,1,2
+"24",24,44,55,"Group A","Group A","Beta","Beta",13,17,NA,36,42,-36,43,"Group A","Beta","Alpha","Bob",37,"Red",60.07538851,"Green","Another Group",17,14,16,37,42,44,55,55,2,5,2
+"25",25,55,55,"Group A","Group A","Beta","Alpha",20,23,20,42,47,-48,39,"Group A","Beta","Alpha","Bob",40,"Red",61.81250541,"Green","Another Group",23,22,29,45,48,55,55,55,4,3,4
+"26",26,84,56,"Group A","Group A","Beta","Alpha",10,11,13,45,44,-52,31,"Group B","Beta","Alpha","Tim",49,"Red",62.47834587,"Green","Group B",11,11,22,45,45,84,56,56,4,1,2
+"27",27,63,55,"Group A","Group A","Beta","Alpha",18,23,18,44,51,-43,61,"Group B","Beta","Alpha","George",42,"Red",65.71043244,"Green","Another Group",23,21,39,51,52,63,55,55,3,5,4
+"28",28,70,60,"Group A","Group B","Beta","Alpha",10,12,8,33,37,-40,70,"Group B","Beta","Alpha","Bob",28,"Blue",65.11479833,"Blue","Group A",12,11,11,37,40,70,60,60,2,2,3
+"29",29,57,59,"Group A","Group B","Beta","Alpha",14,18,11,40,47,-46,49,"Group B","Beta","Alpha","Tim",42,"Blue",65.68697409,"Blue",NA,18,18,30,44,47,57,59,59,4,3,1
+"30",30,67,56,"Group A","Group A","Theta","Beta",15,15,13,44,44,-43,35,"Group B","Theta","Alpha","Tim",38,"Blue",61.15167209,"Blue","Group A",15,15,21,44,44,67,56,56,3,4,4
+"31",31,96,63,"Group A","Group B","Theta","Beta",20,24,23,33,35,-35,31,"Group B","Theta","Alpha","Tim",30,"Blue",60.10942507,"Blue",NA,24,23,32,35,35,96,63,63,3,2,2
+"32",32,65,57,"Group A","Group A","Theta","Theta",13,16,14,49,54,-56,61,"Group B","Theta","Alpha","Tim",60,"Blue",68.33296844,"Blue",NA,16,13,17,50,54,65,57,57,4,4,4
+"33",33,83,58,"Group A","Group B","Theta","Theta",18,21,18,33,34,-33,41,"Group B","Theta","Alpha","Bob",29,"Blue",68.67378538,"Blue","Group B",21,18,27,34,34,83,58,58,3,4,2
+"34",34,96,62,"Group A","Group B","Theta","Beta",12,16,13,43,44,-48,38,"Group B","Theta","Alpha","Bob",37,"Blue",69.51752209,"Blue","Group X",16,12,33,44,46,96,62,62,4,3,4
+"35",35,63,60,"Group A","Group A","Beta","Alpha",17,18,16,45,46,-49,39,"Group B","Beta","Alpha","Tim",56,"Blue",69.10037957,"Blue",NA,18,18,26,45,45,63,60,60,5,3,5
+"36",36,36,61,"Group A","Group B","Theta","Theta",16,18,19,39,39,-39,44,"Group A","Theta","Alpha","Hank",29,"Blue",68.45472613,"Blue",NA,18,16,16,39,37,36,61,61,2,4,5
+"37",37,53,60,"Group A","Group B","Alpha","Beta",12,15,12,39,45,-40,60,"Group A","Alpha","Alpha","Hank",39,"Blue",64.99181148,"Blue","Group X",15,12,30,41,45,53,60,60,1,4,5
+"38",38,66,65,"Group A","Group A","Alpha","Theta",15,15,16,31,35,-30,54,"Group A","Alpha","Alpha","Tim",28,"Blue",63.47043897,"Blue","Another Group",15,15,27,35,38,66,65,65,1,3,1
+"39",39,99,56,"Group A","Group A","Alpha","Alpha",16,21,18,37,40,-36,70,"Group A","Alpha","Alpha","Tim",34,"Blue",65.77291525,"Blue","Another Group",21,18,36,37,41,99,56,56,2,3,5
+"40",40,88,55,"Group A","Group B","Beta","Theta",16,19,17,37,37,-42,42,"Group A","Beta","Alpha","Tim",29,"Blue",62.04255113,"Blue","Even more groups",19,19,17,37,35,88,55,55,2,5,3
+"41",41,52,60,"Group A","Group B","Beta","Beta",11,13,12,43,46,-42,49,"Group A","Beta","Alpha","Hank",36,"Blue",69.35578563,"Blue",NA,13,12,23,44,44,52,60,60,4,5,4
+"42",42,86,56,"Group A","Group A","Beta","Theta",15,16,13,38,42,-44,54,"Group A","Beta","Alpha","Bob",32,"Blue",67.10335412,"Blue","Group B",16,16,27,41,40,86,56,56,4,5,4
+"43",43,31,55,"Group A","Group B","Beta","Theta",13,15,15,38,44,-44,44,"Group A","Beta","Alpha","Tim",38,"Blue",63.49689502,"Blue","Last Group",15,14,28,44,45,31,55,55,1,3,2
+"44",44,33,63,"Group A","Group B","Beta","Alpha",16,20,17,32,35,-34,41,"Group A","Beta","Alpha","Hank",25,"Blue",65.12418841,"Blue","Even more groups",20,19,32,35,38,33,63,63,1,5,3
+"45",45,77,64,"Group A","Group B","Beta","Alpha",12,16,12,49,55,-55,49,"Group A","Beta","Alpha","Bob",62,"Blue",63.16823506,"Blue","Group X",16,16,32,50,53,77,64,64,2,4,4
+"46",46,76,63,"Group A","Group A","Beta","Theta",10,12,9,36,35,-36,58,"Group A","Beta","Alpha","George",29,"Blue",68.55523765,"Blue","Group A",12,10,31,36,33,76,63,63,3,3,3
+"47",47,52,62,"Group A","Group B","Beta","Alpha",16,16,14,37,43,-39,44,"Group A","Beta","Alpha","George",37,"Green",67.08330735,"Green","Even more groups",16,16,27,43,43,52,62,62,3,2,4
+"48",48,46,65,"Group A","Group A","Beta","Theta",18,20,20,46,51,-52,68,"Group A","Beta","Alpha","Bob",61,"Green",68.73766577,"Green","Another Group",20,20,21,47,54,46,65,65,2,5,2
+"49",49,50,65,"Group A","Group B","Theta","Beta",17,19,19,37,44,-38,48,"Group A","Theta","Alpha","George",39,"Green",63.02368084,"Green",NA,19,19,23,37,43,50,65,65,4,1,2
+"50",50,62,63,"Group A","Group B","Theta","Alpha",11,12,9,47,49,-53,54,"Group A","Theta","Alpha","George",58,"Green",68.52958312,"Green","Group X",12,11,40,49,48,62,63,63,5,1,1
+"51",51,100,55,"Group A","Group B","Theta","Alpha",14,14,11,44,47,-43,43,"Group A","Theta","Alpha","George",37,"Blue",64.79125594,"Blue",NA,14,14,20,45,46,200,55,55,2,1,5
+"52",52,68,62,"Group A",NA,"Alpha","Beta",18,19,21,44,47,-44,68,"Group A","Alpha","Alpha","George",41,"Blue",66.05200809,"Blue","Group B",19,18,36,45,48,68,62,62,4,1,3
+"53",53,88,55,"Group A","Group B","Alpha","Theta",11,14,8,43,43,-49,66,"Group A","Alpha","Alpha","Tim",38,"Green",68.54089851,"Green","Group B",14,13,43,43,43,88,55,55,3,1,1
+"54",54,53,61,"Group A","Group A","Alpha","Alpha",14,19,14,44,47,-48,38,"Group A","Alpha","Alpha","Bob",40,"Blue",63.878869,"Blue","Another Group",19,17,43,46,50,53,61,61,5,5,3
+"55",55,95,55,"Group A","Group A","Theta","Alpha",20,24,18,37,39,-43,43,"Group A","Theta","Alpha","Bob",31,"Blue",61.70821805,"Blue",NA,24,22,34,38,41,95,55,55,4,2,4
+"56",56,90,64,"Group A","Group A","Beta","Theta",11,16,11,39,42,-42,34,"Group A","Beta","Alpha","Bob",34,"Blue",61.66974132,"Blue","Last Group",16,11,11,40,43,90,64,64,1,4,2
+"57",57,70,55,"Group A","Group B","Beta","Alpha",13,13,11,31,35,-36,69,"Group A","Beta","Alpha","Tim",29,"Blue",68.7383967,"Blue","Group X",13,13,28,33,36,70,55,55,5,5,2
+"58",58,43,55,"Group A","Group B","Beta","Alpha",18,20,17,35,41,-37,44,"Group A","Beta","Alpha","Hank",31,"Blue",63.52043882,"Blue","Last Group",20,20,30,37,43,43,55,55,2,2,2
+"59",59,41,60,"Group A","Group B","Beta","Alpha",19,20,21,40,47,-47,43,"Group A","Beta","Alpha","Hank",37,"Blue",69.32174424,"Blue","Group X",20,20,31,44,46,41,60,60,2,4,2
+"60",60,33,63,"Group A","Group B","Beta","Alpha",12,13,10,37,39,-44,67,"Group A","Beta","Alpha","Bob",29,"Blue",70.32376899,"Blue","Group B",13,13,21,38,39,33,63,63,1,3,2
+"61",61,89,63,"Group A","Group A","Beta","Alpha",17,17,15,30,35,-37,38,"Group A","Beta","Alpha","Hank",29,"Blue",70.14116537,"Blue",NA,17,17,30,31,37,89,63,63,3,2,4
+"62",62,94,62,"Group A","Group A","Beta","Beta",13,13,16,50,57,-56,34,"Group A","Beta","Alpha","George",62,"Blue",66.51746173,"Blue",NA,13,13,44,52,56,94,62,62,3,4,4
+"63",63,83,66,"Group A","Group B","Beta","Theta",13,14,15,34,36,-37,51,"Group A","Beta","Alpha","Hank",27,"Blue",60.30990212,"Blue","Group B",14,13,31,36,38,83,66,66,2,4,1
+"64",64,95,67,"Group A","Group B","Beta","Theta",10,13,8,43,49,-44,47,"Group A","Beta","Alpha","Bob",39,"Blue",66.67881159,"Blue",NA,13,12,22,46,47,95,67,67,1,4,2
+"65",65,31,64,"Group A","Group A","Beta","Alpha",10,13,9,48,54,-49,65,"Group A","Beta","Alpha","Hank",61,"Blue",64.77080257,"Blue",NA,13,11,41,51,52,31,64,64,4,1,1
+"66",66,33,67,"Group A","Group A","Beta","Alpha",19,24,21,32,35,-37,62,"Group A","Beta","Alpha","George",25,"Blue",62.14992115,"Blue","Last Group",24,20,22,33,35,33,67,67,3,4,2
+"67",67,28,68,"Group A","Group A","Beta","Theta",16,21,18,43,50,-50,32,"Group A","Beta","Alpha","Tim",45,"Blue",60.59965885,"Blue","Last Group",21,20,16,47,50,28,68,68,1,2,4
+"68",68,39,65,"Group A","Group B","Beta","Theta",15,19,17,43,42,-44,38,"Group A","Beta","Alpha","Hank",37,"Green",63.26895827,"Green",NA,19,17,39,43,44,39,65,65,4,3,1
+"69",69,37,70,"Group A","Group B","Beta","Theta",10,10,8,44,45,-43,55,"Group A","Beta","Alpha","George",36,"Blue",61.79718426,"Blue","Group B",10,10,12,45,46,37,70,70,2,4,4
+"70",70,85,64,"Group A","Group B","Beta","Beta",20,23,21,37,37,-38,40,"Group A","Beta","Alpha","George",29,"Blue",69.38336486,"Blue",NA,23,22,24,37,39,85,64,64,5,3,2
+"71",71,42,70,"Group A","Group B","Beta","Alpha",19,23,19,36,38,-39,47,"Group A","Beta","Alpha","Bob",30,"Blue",66.35924608,"Blue","Group A",23,23,34,38,36,42,70,70,2,3,4
+"72",72,61,63,"Group A",NA,"Beta","Beta",12,12,9,43,48,-42,64,"Group A","Beta","Alpha","Tim",40,"Blue",67.57600018,"Blue","Group A",12,12,30,43,46,61,63,63,2,1,4
+"73",73,30,66,"Group A","Group A","Theta","Alpha",15,19,15,39,45,-46,62,"Group A","Theta","Alpha","Hank",40,"Blue",60.30747778,"Blue",NA,19,17,32,44,44,30,66,66,3,1,2
+"74",74,40,61,"Group A","Group B","Theta","Alpha",11,12,10,41,43,-48,37,"Group A","Theta","Alpha","Hank",33,"Blue",68.85959373,"Blue","Last Group",12,11,31,42,42,40,61,61,1,4,5
+"75",75,70,63,"Group A","Group A","Theta","Beta",16,21,16,46,46,-52,44,"Group A","Theta","Alpha","Bob",54,"Blue",66.11234031,"Blue","Group A",21,16,20,46,48,70,63,63,5,5,5
+"76",76,99,68,"Group A","Group B","Theta","Theta",14,18,11,31,30,-33,48,"Group A","Theta","Alpha","Hank",25,"Red",69.67228353,"Green","Even more groups",18,17,23,31,30,99,68,68,3,1,2
+"77",77,29,66,"Group A","Group A","Theta","Alpha",20,22,23,46,51,-50,36,"Group A","Theta","Alpha","Bob",60,"Red",63.18012135,"Green",NA,22,20,41,49,52,29,66,66,2,1,5
+"78",78,55,62,"Group A","Group B","Theta","Alpha",17,17,17,41,45,-40,53,"Group A","Theta","Alpha","Bob",37,"Red",62.11642479,"Green","Last Group",17,17,36,41,45,55,62,62,1,1,3
+"79",79,54,69,"Group B","Group B","Theta","Alpha",12,15,10,50,56,-56,61,"Group B","Theta","Alpha","George",65,"Blue",63.19025999,"Blue","Last Group",15,14,31,56,54,54,69,69,3,4,4
+"80",80,75,63,"Group B","Group A","Theta","Beta",20,21,18,30,32,-29,42,"Group B","Theta","Alpha","George",24,"Blue",62.28810894,"Blue","Another Group",21,21,20,32,35,75,63,63,5,1,2
+"81",81,75,60,"Group B","Group A","Theta","Theta",15,18,14,49,52,-52,61,"Group B","Theta","Alpha","Tim",59,"Blue",68.68368722,"Blue","Group B",18,18,25,51,51,75,60,60,5,3,4
+"82",82,35,62,"Group B","Group B","Alpha","Theta",10,14,13,34,36,-36,43,"Group B","Alpha","Alpha","Hank",27,"Red",67.79016508,"Green","Even more groups",14,10,18,34,37,35,62,62,4,2,2
+"83",83,49,70,"Group B","Group A","Alpha","Theta",20,22,20,33,36,-38,49,"Group B","Alpha","Alpha","Tim",29,"Red",70.4187182,"Green","Another Group",22,21,22,34,35,49,70,70,4,4,3
+"84",84,41,60,"Group B","Group B","Theta","Alpha",18,19,17,30,34,-35,68,"Group B","Theta","Alpha","Hank",27,"Red",60.54033395,"Green","Last Group",19,19,27,31,37,41,60,60,1,2,4
+"85",85,52,63,"Group B","Group A","Theta","Alpha",15,15,13,36,37,-41,55,"Group B","Theta","Alpha","Bob",27,"Red",68.54037802,"Green","Group B",15,15,30,36,38,52,63,63,4,4,4
+"86",86,51,62,"Group B","Group B","Theta","Theta",14,17,11,45,52,-48,45,"Group B","Theta","Alpha","George",58,"Red",62.76096014,"Green","Group X",17,17,17,46,52,51,62,62,1,3,3
+"87",87,31,64,"Group B","Group B","Theta","Theta",11,10,11,41,47,-42,64,"Group B","Theta","Alpha","Tim",38,"Red",65.74201654,"Green","Group B",10,11,20,43,47,31,64,64,5,5,4
+"88",88,66,66,"Group B","Group A","Theta","Beta",15,13,18,41,47,-45,60,"Group B","Theta","Alpha","George",40,"Red",68.05549709,"Green","Group X",13,15,18,43,48,66,66,66,5,3,4
+"89",89,52,64,"Group B",NA,"Beta","Theta",20,20,23,40,39,-45,50,"Group A","Beta","Alpha","Tim",32,"Blue",65.3894563,"Blue",NA,20,20,40,40,37,52,64,64,4,1,3
+"90",90,61,64,"Group B","Group A","Beta","Alpha",19,20,16,33,38,-37,35,"Group A","Beta","Alpha","Hank",33,"Red",65.18054323,"Green","Last Group",20,20,31,34,38,61,64,64,2,2,5
+"91",91,71,75,"Group B","Group B","Theta","Beta",19,NA,22,36,39,-36,47,"Group A","Theta","Alpha","Bob",32,"Red",64.62374724,"Green","Another Group",18,19,36,39,40,71,75,75,3,2,1
+"92",92,66,70,"Group B","Group B","Theta","Alpha",16,NA,18,37,37,-37,50,"Group A","Theta","Alpha","Bob",31,"Red",69.91446265,"Blue","Even more groups",15,16,30,37,37,66,70,70,5,1,4
+"93",93,40,66,"Group B","Group A","Theta","Alpha",13,NA,10,40,47,-43,53,"Group A","Theta","Alpha","Tim",42,"Red",64.23043224,"Green","Another Group",15,15,19,44,46,40,66,66,1,1,2
+"94",94,52,75,"Group B","Group B","Alpha","Theta",17,21,16,43,48,-48,64,"Group B","Alpha","Alpha","George",39,"Red",61.06388851,"Green","Group B",21,17,34,46,48,52,75,75,5,4,4
+"95",95,28,71,"Group B",NA,"Alpha","Theta",10,15,9,46,45,-50,70,"Group B","Alpha","Alpha","Hank",51,"Red",64.80691215,"Blue","Last Group",15,12,15,46,48,28,71,71,3,2,3
+"96",96,40,74,"Group B","Group B","Alpha","Theta",12,13,14,40,40,-45,42,"Group B","Alpha","Alpha","George",31,"Red",69.99927616,"Green","Last Group",13,13,33,40,41,40,74,74,3,1,1
+"97",97,70,71,"Group B","Group A","Alpha","Beta",NA,10,11,41,47,-42,43,"Group B","Alpha","Alpha","Bob",37,"Red",60.28692058,"Blue",NA,10,10,14,44,46,70,71,71,4,1,2
+"98",98,44,72,"Group B","Group A","Alpha","Alpha",NA,18,14,34,41,-36,56,"Group B","Alpha","Alpha","Tim",36,"Red",65.76985191,"Blue",NA,18,18,16,36,41,44,72,72,3,1,1
+"99",99,40,73,"Group B","Group B","Beta","Alpha",15,13,17,50,57,-49,47,"Group B","Beta","Alpha","Bob",65,"Red",65.13519631,"Blue","Group A",13,15,19,57,59,40,73,73,4,4,1
+"100",100,64,67,"Group B","Group B","Beta","Beta",19,21,17,50,49,-57,34,"Group B","Beta","Alpha","Tim",59,"Red",62.21269991,"Green","Another Group",21,20,36,43,51,64,67,67,1,2,3
+"101",101,72,68,"Group B","Group B","Beta","Beta",13,18,13,43,48,-47,61,"Group B","Beta","Alpha","George",42,"Red",62.6781403,"Green","Another Group",18,17,33,44,50,72,68,68,2,5,3
+"102",102,75,66,"Group B","Group A","Beta","Beta",20,21,18,45,50,-45,62,"Group B","Beta","Alpha","Hank",60,"Red",68.32960931,"Green",NA,21,21,40,49,50,75,66,66,5,2,4
+"103",103,79,70,"Group B","Group B","Theta","Theta",17,22,NA,31,31,-33,35,"Group B","Theta","Alpha","George",22,"Red",65.74658595,"Blue","Even more groups",22,21,23,31,29,79,70,70,4,5,4
+"104",104,80,69,"Group B","Group B","Theta","Beta",11,14,NA,33,40,-34,69,"Group B","Theta","Alpha","George",34,"Red",69.15333596,"Green","Group X",14,11,12,33,38,80,69,69,3,1,2
+"105",105,89,65,"Group B","Group A","Theta","Theta",20,23,19,49,53,-53,68,"Group B","Theta","Alpha","Tim",63,"Red",62.66686729,"Green","Another Group",23,20,31,51,52,89,65,65,2,2,5
+"106",106,44,68,"Group B","Group B","Theta","Theta",13,16,10,40,45,-39,38,"Group B","Theta","Alpha","Hank",36,"Blue",65.35495898,"Blue","Group A",16,15,32,45,43,44,68,68,1,2,2
+"107",107,96,65,"Group B","Group B","Theta","Beta",12,15,12,34,39,-34,42,"Group B","Theta","Alpha","Tim",29,"Red",69.25789055,"Green",NA,15,14,31,37,42,96,65,65,1,3,4
+"108",108,86,66,"Group B","Group B","Theta","Alpha",11,16,10,35,37,-38,60,"Group B","Theta","Alpha","Tim",28,"Red",64.06791313,"Green","Group X",16,12,32,37,39,86,66,66,3,5,3
+"109",109,53,75,"Group B","Group B","Theta","Theta",18,23,20,43,48,-43,53,"Group B","Theta","Alpha","Bob",38,"Red",68.48078537,"Green",NA,23,21,26,43,50,53,75,75,2,5,4
+"110",110,26,65,"Group B","Group A","Theta","Beta",10,15,8,34,34,-37,69,"Group B","Theta","Alpha","George",27,"Red",68.75996412,"Green","Even more groups",15,13,29,34,36,26,65,65,3,3,2
+"111",111,60,68,"Group B","Group B","Theta","Alpha",14,16,11,35,37,-40,30,"Group B","Theta","Alpha","George",29,"Red",66.99954224,"Green","Group X",16,16,15,36,40,60,68,68,1,1,2
+"112",112,99,68,"Group B","Group A","Theta","Alpha",15,16,13,44,47,-50,41,"Group B","Theta","Alpha","George",42,"Green",68.280896,"Green","Group B",16,16,23,46,50,99,68,68,5,4,1
+"113",113,93,73,"Group B",NA,"Theta","Beta",20,19,19,35,40,-39,40,"Group B","Theta","Alpha","Bob",31,"Green",70.78702702,"Green","Group A",19,18,26,39,42,93,73,73,5,5,4
+"114",114,77,74,"Group B","Group B","Theta","Theta",18,22,21,40,39,-43,57,"Group B","Theta","Alpha","Bob",32,"Green",64.23877449,"Blue","Group X",22,19,36,40,39,77,74,74,2,1,2
+"115",115,47,65,"Group B","Group B","Theta","Beta",12,11,12,42,46,-42,47,"Group B","Theta","Alpha","Hank",40,"Green",61.95819106,"Green",NA,11,12,42,42,48,47,65,65,4,1,1
+"116",116,84,72,"Group B","Group A","Theta","Alpha",19,22,22,49,48,-55,34,"Group B","Theta","Alpha","Bob",57,"Green",67.20012005,"Green","Another Group",22,19,46,49,50,84,72,72,1,4,4
+"117",117,36,69,"Group B","Group B","Theta","Theta",17,19,16,47,46,-52,64,"Group B","Theta","Alpha","Tim",55,"Green",63.97074893,"Green","Group A",19,19,38,47,46,36,69,69,3,4,1
+"118",118,35,66,"Group B","Group A","Theta","Alpha",16,17,17,30,35,-32,65,"Group B","Theta","Alpha","Tim",29,"Green",63.83622225,"Green","Even more groups",17,16,28,34,34,35,66,66,4,3,5
+"119",119,72,65,"Group B",NA,"Theta","Beta",10,15,13,33,36,-37,57,"Group B","Theta","Alpha","Hank",28,"Green",64.0438461,"Green","Last Group",15,15,26,36,39,72,65,65,2,1,2
+"120",120,66,71,"Group B",NA,"Theta","Theta",18,16,20,44,50,-45,41,"Group B","Theta","Alpha","Tim",43,"Green",61.84132528,"Green",NA,16,18,21,46,49,66,71,71,1,4,3
+"121",121,84,70,"Group B","Group B","Theta","Alpha",15,13,14,50,57,-49,32,"Group B","Theta","Alpha","Hank",65,"Green",63.2882151,"Green","Group X",13,15,17,57,59,84,70,70,4,4,5
+"122",122,80,77,"Group B",NA,"Theta","Beta",15,15,12,49,50,-52,48,"Group B","Theta","Alpha","Tim",55,"Green",70.82069804,"Green","Group B",15,15,49,50,53,80,77,77,5,5,4
+"123",123,92,71,"Group B","Group A","Theta","Alpha",19,19,16,40,46,-47,40,"Group B","Theta","Alpha","Hank",41,"Green",66.30862171,"Green","Group X",19,19,37,44,45,92,71,71,1,1,2
+"124",124,86,77,"Group B","Group A","Theta","Theta",15,19,13,49,49,-48,69,"Group B","Theta","Alpha","Hank",56,"Green",62.06073314,"Green","Last Group",19,15,34,49,47,86,77,77,3,1,2
+"125",125,54,73,"Group B","Group A","Theta","Theta",17,18,15,45,44,-51,44,"Group B","Theta","Alpha","Hank",54,"Blue",61.71607955,"Blue",NA,18,17,38,49,45,54,73,73,3,4,1
+"126",126,78,72,"Group B","Group A","Theta","Alpha",20,20,22,35,38,-38,70,"Group B","Theta","Alpha","George",29,"Red",64.07249875,"Green","Even more groups",20,20,27,35,37,78,72,72,4,2,2
+"127",127,100,76,"Group B","Group A","Theta","Beta",12,11,9,39,38,-42,46,"Group B","Theta","Alpha","Tim",33,"Blue",70.52926548,"Blue","Group B",11,12,21,39,38,221,76,76,5,1,4
+"128",128,31,80,"Group B","Group A","Theta","Beta",15,13,16,40,44,-44,42,"Group B","Theta","Alpha","Hank",38,"Blue",61.89842953,"Blue",NA,13,15,22,41,47,31,80,80,2,1,1
+"129",129,26,71,"Group B","Group A","Theta","Alpha",14,14,14,49,50,-51,46,"Group B","Theta","Alpha","George",60,"Blue",60.94797401,"Blue","Group A",14,14,40,50,50,26,71,71,1,3,1
+"130",130,66,80,"Group B","Group B","Theta","Alpha",18,16,15,43,46,-44,69,"Group B","Theta","Alpha","Bob",40,"Red",63.5606547,"Green",NA,16,14,42,46,45,66,80,80,2,4,3
+"131",131,67,70,"Group B",NA,"Theta","Beta",18,23,16,32,37,-36,59,"Group B","Theta","Beta","Bob",29,"Blue",60.27411533,"Blue","Another Group",23,22,31,37,39,67,70,70,3,5,2
+"132",132,69,77,"Group B","Group A","Theta","Beta",18,24,16,44,48,-49,62,"Group B","Theta","Beta","Tim",39,"Green",67.26983,"Green","Another Group",24,18,26,47,50,69,77,77,1,4,4
+"133",133,78,75,"Group B","Group A","Theta","Theta",17,21,18,40,45,-41,60,"Group B","Theta","Beta","George",37,"Green",70.55966245,"Green","Another Group",21,18,27,41,43,78,75,75,4,3,5
+"134",134,94,72,"Group B",NA,"Theta","Theta",19,24,17,44,49,-49,39,"Group B","Theta","Beta","George",43,"Green",69.08616826,"Green","Group B",24,22,29,48,50,94,72,72,1,4,4
+"135",135,67,78,"Group B","Group A","Theta","Beta",19,21,16,30,32,-29,42,"Group B","Theta","Beta","Tim",22,"Green",69.94407249,"Green","Group X",21,21,27,30,35,67,78,78,2,3,5
+"136",136,79,85,"Group B","Group B","Theta","Alpha",11,16,13,44,49,-43,50,"Group B","Theta","Beta","George",40,"Green",66.92316711,"Green","Group X",16,11,19,49,49,79,85,85,4,3,5
+"137",137,73,84,"Group B","Group B","Theta","Alpha",20,24,18,49,56,-48,51,"Group B","Theta","Beta","Hank",65,"Green",66.89016886,"Green",NA,24,22,29,52,59,73,84,84,1,4,3
+"138",138,95,75,"Group B","Group B","Theta","Beta",18,21,20,45,47,-52,37,"Group A","Theta","Beta","Hank",54,"Green",70.68355042,"Green",NA,21,20,26,45,45,95,75,75,1,1,3
+"139",139,46,85,"Group B","Group B","Theta","Beta",13,18,15,32,39,-31,48,"Group A","Theta","Beta","George",31,"Green",73.8393043,"Green","Group A",18,14,13,33,41,46,85,85,2,3,1
+"140",140,54,77,"Group B","Group A","Theta","Alpha",12,15,9,45,50,-51,54,"Group A","Theta","Beta","Tim",57,"Green",73.60278163,"Green","Even more groups",15,14,31,49,49,54,77,77,4,4,4
+"141",141,51,95,"Group B","Group B","Beta","Beta",18,19,18,43,43,-42,34,"Group B","Beta","Alpha","George",33,"Green",75.35097153,"Green","Another Group",19,19,35,43,42,51,95,95,2,1,1
+"142",142,57,95,"Group B","Group A","Beta","Theta",20,21,23,40,46,-39,39,"Group B","Beta","Beta","George",37,"Green",75.15718654,"Green","Another Group",21,20,23,46,47,57,95,95,3,1,1
+"143",143,60,82,"Group B","Group B","Alpha","Alpha",18,20,17,48,47,-55,48,"Group B","Alpha","Alpha","Hank",57,"Green",74.96800366,"Green",NA,20,20,42,48,49,60,82,82,4,1,3
+"144",144,62,89,"Group B","Group A","Alpha","Alpha",12,18,12,36,38,-40,31,"Group B","Alpha","Theta","Hank",29,"Green",72.68415686,"Green","Another Group",18,18,21,36,36,62,89,89,4,5,5
+"145",145,57,87,"Group A","Group A","Theta","Theta",15,20,13,43,46,-49,45,"Group B","Theta","Beta","George",39,"Red",75.99064683,"Green","Even more groups",20,19,41,46,44,57,87,87,1,4,5
+"146",146,56,88,"Group A","Group A","Theta","Alpha",11,12,8,43,50,-49,62,"Group B","Theta","Beta","Tim",40,"Blue",71.62352257,"Blue","Group B",12,12,22,50,52,56,88,88,2,4,5
+"147",147,32,83,"Group A","Group B","Theta","Alpha",16,20,15,31,34,-31,59,"Group B","Theta","Beta","Bob",26,"Blue",70.63785605,"Blue",NA,20,16,27,34,35,32,83,83,2,5,3
+"148",148,69,127,"Group A","Group A","Theta","Alpha",18,20,18,42,45,-42,41,"Group B","Theta","Beta","Bob",40,"Blue",74.55127773,"Blue","Even more groups",20,20,18,42,48,69,127,127,3,3,4
+"149",149,51,124,"Group A","Group B","Theta","Alpha",13,17,14,42,49,-47,68,"Group B","Theta","Beta","George",42,"Red",72.4138406,"Green","Another Group",17,16,37,42,52,51,124,375,4,1,4
+"150",150,37,125,"Group A","Group A","Theta","Alpha",16,17,19,50,56,-54,65,"Group B","Theta","Theta","Hank",61,"Red",72.30308597,"Green","Group B",17,17,24,50,55,37,125,375,5,4,3
