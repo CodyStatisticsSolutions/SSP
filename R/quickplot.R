@@ -304,7 +304,7 @@ quickplot.ssp <- function(df,
 ########################################################################################
 
 
-data <- read.csv(file.choose())
+##data <- read.csv(file.choose())
 
 #quickplot.ssp(df=data, plottype="barplot", xval=Group.3)
 #quickplot.ssp(df=data, plottype="barplot", xval=Group.3, plottitle="Barplot Example", xlabel="Group 3", ylabel="Frequency")
