@@ -2,6 +2,9 @@
 ancova <- function (x, cv, y, data){
   
   require(mvtnorm)
+  require(multcomp)
+  require(effects)
+  require(car)
 	
 	mydata <- na.omit(data[c(x,cv,y)]);
 
@@ -19,7 +22,7 @@ ancova <- function (x, cv, y, data){
 	myanova.ss <- myanova$"Sum Sq";
 	Eta <- myanova.ss/(myanova.ss + myanova.ss[length(myanova.ss)])
         
-        
+        print(qqnorm(mylm$res))
         print(qqline(mylm$res))
         
         
