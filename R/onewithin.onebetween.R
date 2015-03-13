@@ -34,7 +34,7 @@ onewithin.onebetween <- function(dvs, iv, id, data){
   owobanova <- lme(formula, data=myexpr.df, random=random1, na.action=na.omit);
   
   
-  anova <- anova.lme(owobanova, type = "marginal", adjustSigma = F);
+  anova <- anova.lme(owobanova, type="sequential", adjustSigma = F);
   
   pairwise1 <- pairwise.t.test(myexpr.df$repdat,myexpr.df$contrasts,p.adj="holm", paired=TRUE, pool.sd=FALSE);
   

@@ -1,6 +1,6 @@
 \name{Stat Solutions}
-\alias{StatSolutions_1.53-package}
-\alias{StatSolutions_1.53}
+\alias{StatSolutions_1.54-package}
+\alias{StatSolutions_1.54}
 \docType{package}
 \title{Statistics Solutions Pro package
 What the package does (short line)
