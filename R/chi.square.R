@@ -18,15 +18,35 @@ chi.square <- function(x, y, data){
 	chitest <- unclass(chisq.test(xvar,yvar,correct=FALSE));
 	chitest <- lapply(chitest, unclass); #unclass all individual elements as well
   
-  fisher <- fisher.test(xvar, yvar)$p.value
+  fisher <- fisher.test(xvar, yvar, hybrid = FALSE, workspace = 1e9)$p.value
   
-	
+	btable = chitest$observed
+	atleastfive = c()
+	for(i in 1:length(btable)){
+	  if(chitest$observed[i] >= 5)
+	  {atleastfive[i] = 1}
+	  else
+	  {atleastfive[i] = 0}
+	}
+	atleastfive = sum(atleastfive)/length(atleastfive)
+  
+	ctable = chitest$observed
+	zerocellcount = c()
+	for(i in 1:length(ctable)){
+	  if(chitest$observed[i] == 0)
+	  {zerocellcount[i] = 1}
+	  else
+	  {zerocellcount[i] = 0}
+	}
+  zerocellcount = sum(zerocellcount)
+  
 	chitest$dimnames <- dimnames(chitest$observed);
 	chitest$observed <- unclass(chitest$observed);
 	chitest$expected <- unclass(chitest$expected);
   chitest$fisher <- fisher
-
-	
+  chitest$zerocellcount <- zerocellcount
+  chitest$atleastfive <- atleastfive
+  
 	return(chitest);
 }
 

@@ -1,10 +1,10 @@
 Package: StatSolutions
 Type: Package
 Title: Statistics Solutions Pro Functions
-Version: 1.54
-Date: 2015-3-13
+Version: 1.55
+Date: 2015-4-27
 Author: Jeroen Ooms, Cody Likavec, Kelvin Lam, and Marlen Roberts
-Maintainer: Cody Likavec <cody@statisticssolutions.com>
+Maintainer: Marlen Roberts <marlen@statisticssolutions.com>
 License: none
 Description: Functions used for Statistics Solutions Pro software
 Imports:
